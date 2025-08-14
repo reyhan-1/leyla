@@ -65,7 +65,7 @@ export default function GeriBildirim() {
               </span>
 
               {fb.type === "text" ? (
-                <p className="text-base">"{fb.content}"</p>
+                <p className="text-base">&quot;{fb.content}&quot;</p>
               ) : (
                 <div className="w-full h-48 overflow-hidden rounded-lg mb-4">
                   <video
