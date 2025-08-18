@@ -20,6 +20,11 @@ module.exports = {
         beige: "#aca4ae",
         "main-blue-bright": "#2c547c",
       },
+      fontFamily: {
+        header: ['var(--font-header)'],
+        body: ['var(--font-body)'],
+        accent: ['var(--font-accent)'],
+      },
     },
   },
   plugins: [],

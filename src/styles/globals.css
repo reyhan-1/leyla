@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lato:wght@300;400;700&family=Marcellus+SC&display=swap');
 
 :root {
   --background: white;
-  --foreground: white
+  --foreground: white;  
+  --font-header: 'Libre Baskerville', serif;
+  --font-body: 'Lato', sans-serif;
+  --font-accent: 'Marcellus SC', serif;
+}
+body {
+  font-family: var(--font-body);
 }
 
 /* @theme inline {

@@ -8,8 +8,8 @@ import Link from 'next/link';
 export default function Egitimler() {
   const egitimler = [
     { 
-      heading: "Yaşam Koçluğu", 
-      description: "Kişisel gelişim ve rehberlik programı", 
+      heading: "Öğrenci Koçluğu", 
+      description: "Akademik yaşamda başarı becerilerini artırmanın yanı sıra sosyal hayattaki bilgi ve becerilerini de geliştirmek amacıyla öğrenci ile koç arasında kurulan işbirliğidir. ", 
       category: "Career / Relationships", 
       icon: <FaHandsHelping className="text-4xl text-main-blue mb-4" /> 
     },
@@ -27,10 +27,16 @@ export default function Egitimler() {
     },
     { 
       heading: "Access Bars & Recall Healing", 
-      description: "Zihinsel ve duygusal dönüşüm teknikleri", 
+      description: "Access Bars bizi arzu ettiğimiz yaşamı yaşamaktan alıkoyan; alışkanlık, yargı, bakış açısı ve kararları, basit hızlı ve pratik bir şekilde değiştirmemize yardımcı olan bir sistemdir.", 
       category: "Relationships / Parent", 
       icon: <FaBrain className="text-4xl text-main-blue mb-4" /> 
     },
+    { 
+        heading: "Bilinçaltı Olumsuz Kodların Değişmesi", 
+        description: "Geçmişteki kırgınlıklar algınızı gölgelendirir. Günlük uğraşılarınız ve egonuzun baskısıyla gelen istekler, doğru tercihler yapma becerinizi sekteye uğratır.", 
+        category: "Relationships / Parent", 
+        icon: <FaBrain className="text-4xl text-main-blue mb-4" /> 
+      },
   ];
 
   return (

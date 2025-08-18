@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Egitimler from '../components/Egitim';
 import GeriBildirim from '../components/GeriBildirim';
+import MisyonVizyon from "@/components/MisyonVizyon";
+import SSS from "@/components/SSS";
 
 const sections = [
   { id: "egitim", title: "Eğitim", color: "bg-blue-100" },
@@ -38,9 +40,9 @@ export default function Home() {
       </section>
 
       <Egitimler />
-
-      {/* Geri Bildirim Section */}
       <GeriBildirim />
+      <MisyonVizyon/>
+      <SSS/>
     </div>
   );
 }

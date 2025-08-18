@@ -40,6 +40,7 @@ export default function Navbar() {
     { href: '/seans', label: 'SEANSLAR' },
     { href: '/mentorluk', label: 'MENTÖRLÜK' },
     { href: '/hakkimizda', label: 'HAKKIMIZDA' },
+    { href: '/medya', label: 'MEDYA'},
     { href: '/iletisim', label: 'İLETİŞİM' },
     { href: '/sanat', label: 'SANAT' },
   ];
